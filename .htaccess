@@ -1,0 +1,5 @@
+RewriteEngine on
+
+#for single page
+#RewriteRule ^login$ login.php [L]
+

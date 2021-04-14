@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+	--primary : #253469;
+	--secondary: #3A5EDE;
+	--third : #F4F6F7;
+
+}
+
+*{
+	box-sizing: border-box;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navbar */
+.navigations{
+	background-color: var(--primary);
+	color: #fff;
+	font-size: 14px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+}
+
+.navbar .nav-link{
+	color: #fff !important;
+	font-size: 14px;
+}
+
+.navbar .navbar-brand{
+	color: #fff;
+}
+
+.navbar #form-navbar {
+	margin-left: 100px;
+}
+
+.navbar #form-navbar input{
+	width: 600px;
+}
+.navbar #form-navbar button{
+	width: 40px;
+}
+
+
+/* End Navbar*/
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	background-color: #F6F6F6;
+}
+
+i{
+	color: inherit;
+}
+
+.formRegister{
+	background-color: white;
+	width: 600px;
+}
+.main{
+	min-height: 100vh;
+}
+
+.main2{
+	background-color: #fff !important;
+}
+
+.hover{
+  transition: transform 0.5s ease;
+}
+
+.hover:hover{
+  transform: scale(0.9);
+}
+
+.bg-pri{
+	background-color: var(--primary);
+}
+
+.bg-sec{
+	background-color: var(--secondary);
+}
+
+
+.font-12{
+	font-size: 12px;
+}
+
+.font-14{
+	font-size: 14px;
+}
+
+.font-16{
+	font-size: 16px;
+}
+
+.font-20{
+	font-size: 20px;
+}
+
+.w-75{
+	width: 75%;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.text--primary{
+	color: var(--primary);
+}
+
+.img-detail{
+	width: 400px; 
+	height: 400px;
+}
+
+.btn--primary{
+	background-color: var(--primary);
+	width: 200px;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+}
+
+.btn--primary:hover{
+	color: lightblue;
+	background-color: rgba(37, 51, 105, 0.95);
+	border: none;
+}
+
+.btn--secondary{
+	background-color: var(--secondary);
+	width: 200px;
+	color: #fff;
+	font-weight: bold;
+}
+
+#nav-detail{
+	border-radius: 20px;
+	border-top: 2px solid #F6F6F6;
+	border-left: 2px solid #F6F6F6;
+	border-right: 2px solid #F6F6F6;
+}
+#nav-detail li {
+	background-color: #fff;
+}
+
+#nav-detail li .active {
+	background-color: var(--primary);
+	color: #fff;
+}
+#nav-detail li > a{
+	color: #000;
+}
+
+
+.bg--primary{
+	background-color: var(--primary);
+}
+
+.digit-group input{
+		width: 30px;
+		height: 50px;
+		background-color: lighten($BaseBG, 5%);
+		border: none;
+		border-bottom: 2px solid black;
+		line-height: 50px;
+		text-align: center;
+		font-size: 24px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		color: black;
+		margin: 0 2px;
+}
+
+.digit-group input:focus{
+	outline: none;
+}
+
+
+/*login otp*/
+
+
+#layoutAuthentication_content{
+	background-color: #39A1FF;
+	position: relative;
+}
+
+
+.login-otp-bg{
+	background-image: url("../img/login_otp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%; 
+	height: 90vh;
+	
+}
+
+.otp-card{
+	position: absolute;
+	top: 100px;
+	left: 80px;
+}
+
+.otp-card .card .card-footer .resend{
+	cursor: pointer;
+}
+/*end login otp*/
+
+/*login question*/
+.bg-question-login{
+background-color: #7338A6;
+}
+
+.bg-question-login input{
+	background-color: #673295;
+	color: #F4F6F7;
+}
+
+.bg-question-login h3,
+.bg-question-login label{
+	color: var(--third);
+}
+
+.bg-question-login button{
+	background-color: #3E1E5A;
+	border: none;
+	width: 300px;
+	color: var(--third);
+}
+
+.bg-question-login button:hover{
+	background-color: #261237;
+	outline: none;
+	color: #F4F6F7;
+	}
+/*end login question*/
+
+/*login admin*/
+#layoutAuthentication_content2{
+	background-color: #013243;
+}
+
+#layoutAuthentication_content2 h2,
+#layoutAuthentication_content2 h6,
+#layoutAuthentication_content2 .card-body input{
+	color: var(--third);	
+}
+#layoutAuthentication_content2 .card {
+	width: 350px;
+}
+
+
+#layoutAuthentication_content2 .card-body input{
+	background-color: #1C4857;
+	border: none;
+	border-radius: 15px;
+	width: 250px;
+}
+
+#layoutAuthentication_content2 .card-body input:focus{
+	background-color: #1C4857;
+	border: none;
+	box-shadow: inset 0 0 0 transparent ;
+}
+#layoutAuthentication_content2 .card-body button{
+	background-color: #02E079;
+	border: none;
+	width: 250px;
+	border-radius: 15px;
+}
+
+/*end login admin*/
+
+/*Detail Barang*/
+#section-quantity button,
+#section-quantity input{
+	width: 30px;
+	margin-top: 5px; 
+	border-radius: 5px;
+	height: 40px
+}
+
+
+#section-btn button{
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	height: 45px;
+}
+#section-btn #btn-cart{
+	background-color: #D5580C;
+	
+}
+
+#section-btn #btn-cart:hover{
+	background-color: rgba(213, 88, 12, .8);
+
+}
+
+#section-btn #btn-submit{
+	background-color: var(--primary);
+}
+
+#section-btn #btn-submit:hover{
+	background-color: rgba(37, 52, 105, .8);
+}
+
+/*End Detail Barang*/
+
+/*keranjang */
+#section-cart{
+	background-color: #fff;
+	border-radius: 15px;
+}
+
+#section-cart .name{
+	 width: 400px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+/*end keranjang*/
+
+/*index*/
+
+/*.section-index .name{
+	width: 200px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}*/
+/*end index*/
+
+/*Forgot Password*/
+#card-forgot{
+	width: 500px;
+}
+#card-forgot input, button{
+	width: 300px;
+}
+
+
+/*end forgot password*/
